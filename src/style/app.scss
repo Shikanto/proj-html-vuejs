@@ -1,0 +1,135 @@
+@import "~font-awesome/css/font-awesome.css";
+@import "variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1800px;
+}
+
+.subtitle{
+    font-size: 15px;
+    color: $color-subtitle;
+    letter-spacing: 2px;
+}
+
+.spacing-title{
+    margin-top: $margin-title;
+    margin-bottom: $margin-title;
+}
+
+.btn{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.btn-white{
+    background-color: white;
+    color: $main-purple;
+}
+
+
+
+header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: $margin-title * 10;
+    .navBar{
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    
+        ul{
+            list-style-type: none;
+            
+            li{
+                
+                a{
+                    padding: 0 20px;
+                    text-decoration: none;
+                    color: $main-purple;
+        
+                }
+            }
+        }
+        
+    }
+    
+    
+    .demosOnSale{
+        justify-content: end;
+        align-items: center;
+        
+        .container-demos, .container-icon-demos{
+            flex-direction: column;
+            justify-content: space-between;
+            margin-right: 20px;
+    
+            .container-icon-demos{
+                align-items: center;
+                padding:20px;
+                background-color: white;
+                margin-bottom: 15px;
+                padding: 15px;
+                border-radius: 10px;
+                box-shadow: 5px  5px 3px #dedede,
+                            -5px -5px 3px #dedede,
+                            5px -5px 3px #dedede,
+                            -5px  5px 3px #dedede;
+    
+                .demos-sale{
+                    
+                    font-weight: bolder;
+                    position: relative;
+                    text-align: center;
+                    font-size: 30px;
+    
+                    &.sale-price{
+                        color:$green-price;
+                    }
+    
+                    .dollar{
+                        position: absolute;
+                        top:0;
+                        left: 0;
+                        font-size: 18px;
+                    }
+    
+                    .text-demos{
+                        font-size: 15px;
+                        
+                    }
+                }
+            }      
+        }
+    }
+    
+    .hero{
+        width: 40%;
+        h1{
+            font-size: 80px;
+            color: $main-purple;
+        }
+    
+        .text-hero{
+            color:$hero-text;
+            font-size: 30px;
+            line-height: 1.5;
+            margin-bottom: $margin-title;
+        }
+    }
+}
+
