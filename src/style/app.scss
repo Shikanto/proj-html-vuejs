@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 header{
     background-size: cover;
@@ -87,13 +91,13 @@ header{
     .hero{
         width: 40%;
         h1{
-            font-size: 80px;
+            font-size: 70px;
             color: $main-purple;
         }
     
         .text-hero{
             color:$hero-text;
-            font-size: 30px;
+            font-size: 25px;
             line-height: 1.5;
             margin-bottom: $margin-title;
         }
@@ -103,10 +107,15 @@ header{
 
 .ourProducts{
     width: calc(100% / 3);
+    padding: 20px;
 }
 
 .sliderProducts{
     width: calc(100% - (100% / 3));
     justify-content: space-between;
+    position: relative;
+}
+
+.cardProducts{
     position: relative;
 }

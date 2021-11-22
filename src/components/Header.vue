@@ -35,8 +35,8 @@
             </div>
             <div class="spacing-title"><h1>The Perfect Fresh Bread</h1></div>
             <div class="text-hero">
-                Cras consequat lectus vestibulum tortor pulvinar, quis <br>
-                euismod nisl varius. Aliquam erat volutpat. Nullam quis <br>
+                Cras consequat lectus vestibulum tortor pulvinar, quis 
+                euismod nisl varius. Aliquam erat volutpat. Nullam quis 
                 sagittis nibh ac nulla id orci tempor.
             </div>
             <div class="">
