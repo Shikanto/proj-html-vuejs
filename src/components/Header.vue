@@ -6,7 +6,8 @@
       </div>
       <div class="container-navLinks">
           <ul class="d-flex">
-            <NavLinks v-for="(link, i) in linksNavBar" :key="i" :infoLink="link">
+            <NavLinks v-for="(link, i) in linksNavBar" 
+            :key="i" :infoLink="link">
             </NavLinks>
             <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
         </ul>
@@ -38,7 +39,9 @@
                 euismod nisl varius. Aliquam erat volutpat. Nullam quis <br>
                 sagittis nibh ac nulla id orci tempor.
             </div>
-            <div class=""><button class="btn btn-white">Explore our product</button></div>
+            <div class="">
+                <button class="btn btn-white">Explore our product</button>
+            </div>
         </div>
     </div>
   </header>

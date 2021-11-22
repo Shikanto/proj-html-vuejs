@@ -1,0 +1,76 @@
+.d-flex{
+    display: flex;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1800px;
+}
+
+.subtitle{
+    font-size: 15px;
+    color: $color-subtitle;
+    letter-spacing: 2px;
+}
+
+.spacing-title{
+    margin-top: $margin-title;
+    margin-bottom: $margin-title;
+}
+
+.spacing-section{
+    margin-top: $spacing-section;
+    margin-bottom: $spacing-section;
+}
+
+.btn{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.btn-white{
+    background-color: white;
+    color: $main-purple;
+}
+
+.btn-purple{
+    color: white;
+    background-color: $main-purple;
+
+}
+
+h3{
+    color: $main-purple;
+    font-size: 40px;
+}
+
+.gap{
+    gap: $gap-imgs;
+}
+
+.arrow{
+    position: absolute;
+    font-size: 40px;
+    background-color: $purple-light;
+    padding: 25px 10px; 
+    color:white;
+}
+
+.arrow-right{
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.arrow-left{
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.imgProduct{
+    width: 100%;
+}

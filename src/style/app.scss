@@ -1,45 +1,12 @@
 @import "~font-awesome/css/font-awesome.css";
 @import "variables.scss";
+@import "utilities.scss";
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.d-flex{
-    display: flex;
-}
-
-.container{
-    margin: 0 auto;
-    width: 1800px;
-}
-
-.subtitle{
-    font-size: 15px;
-    color: $color-subtitle;
-    letter-spacing: 2px;
-}
-
-.spacing-title{
-    margin-top: $margin-title;
-    margin-bottom: $margin-title;
-}
-
-.btn{
-    padding: 15px 40px;
-    border: none;
-    border-radius: 5px;
-    letter-spacing: 2px;
-    font-size: 18px;
-}
-
-.btn-white{
-    background-color: white;
-    color: $main-purple;
-}
-
 
 
 header{
@@ -133,3 +100,13 @@ header{
     }
 }
 
+
+.ourProducts{
+    width: calc(100% / 3);
+}
+
+.sliderProducts{
+    width: calc(100% - (100% / 3));
+    justify-content: space-between;
+    position: relative;
+}
