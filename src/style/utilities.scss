@@ -26,14 +26,15 @@
 
 }
 
-.cardProducts:hover .overlay, .container-img-special-moments:hover .overlay{
+.cardProducts:hover .overlay, .container-img-special-moments:hover .overlay, 
+.shop-card:hover .overlay{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.cardProducts:hover .overlay{
+.cardProducts:hover .overlay, .shop-card:hover .overlay {
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -52,6 +53,8 @@
 h3{
     color: $main-purple;
     font-size: 28px;
+    font-weight: 900;
+    
 }
 
 /* CLASSI GENERICHE SPAZIATURE */
@@ -99,8 +102,9 @@ h3{
 
 .arrow{
     position: absolute;
-    font-size: 30px;
+    font-size: 20px;
     background-color: $purple-light;
+    opacity: 0.7;
     padding: 25px 10px; 
     color:white;
 }

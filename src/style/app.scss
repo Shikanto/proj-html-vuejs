@@ -112,7 +112,6 @@ header{
 
 .sliderProducts{
     width: calc(100% - (100% / 3));
-    justify-content: space-between;
     position: relative;
 
     .cardProducts{
@@ -155,3 +154,46 @@ header{
         }
     }
 }
+
+.container-shop{
+
+    .container-shop-text{
+        width: 30%;
+        padding: 40px;
+    }
+    .slider-shop{
+        width: 70%;
+        gap:$gap-imgs;
+        position: relative;
+
+        .shop-card{
+            width: calc(100% / 4);
+
+            .imgShopCard{
+                position: relative;
+
+                img{
+                    width: 100%;
+                }
+
+                h5{
+                    font-size: 10px;
+                    letter-spacing: 2px
+                }
+                
+            }
+
+            .textShopCard{
+                color: $main-purple;
+                padding-top: 10px;
+
+                .priceProduct{
+                    font-size: 15px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+
