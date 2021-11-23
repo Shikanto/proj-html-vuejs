@@ -294,14 +294,25 @@ header{
     }
 }
 
+.container-stay-in-touch{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .square-img{
     width: 25%;
 
         img{
             width: 100%;
+            height: 100%;
         }
 }
 
 .stay-in-touch{
-    width: 50%;
+    width: 51%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-light;
+
 }

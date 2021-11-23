@@ -125,12 +125,21 @@ h3{
     color: $main-purple;
 }
 
+.btn-white:hover{
+    background-color:  $main-purple;
+    color: white;
+}
+
 .btn-purple{
     color: white;
     background-color: $main-purple;
 
 }
 
+.btn-purple:hover{
+    background-color: $purple-light;
+    color: $main-purple;
+}
 
 .arrow{
     position: absolute;
