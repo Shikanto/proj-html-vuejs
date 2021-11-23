@@ -106,5 +106,8 @@ export default {
 
 .bg-hero{
     background-image: url("../assets/hero-header-bakery.jpg");
+    background-size: cover;
+    background-position: center;
+
 }
 </style>
