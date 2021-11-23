@@ -276,14 +276,14 @@ header{
 
 
 .info-location{
-    padding: $margin-title 0 ($margin-title / 2);
+    padding: $margin-title 0 20px;
     justify-content: center;
     flex-direction: column;
 }
 
 .container-info{
     align-items: center;
-    margin-top: $margin-title / 2;
+    margin-top: 20px;
 
     .margin-subtitle{
         margin-top: 8px;

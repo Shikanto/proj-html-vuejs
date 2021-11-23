@@ -94,8 +94,8 @@ export default {
   background-image: url("../assets/bakery-process-3.jpg");
   background-size: cover;
   height: 100%;
-  flex-direction: column;
   padding: 60px 70px;
+  flex-direction: column;
   justify-content: space-between;
 }
 
