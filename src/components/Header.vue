@@ -1,5 +1,5 @@
 <template>
-  <header :style="bgHero">
+  <header class="bg-hero">
     <div class="navBar d-flex">
       <div class="logo">
         <img :src="require('../assets/avada-bakery-logo.png')" alt="" />
@@ -56,9 +56,6 @@ export default {
   },
   data() {
     return {
-        bgHero: {
-        backgroundImage: `url(${require('../assets/hero-header-bakery.jpg')})`,
-      },
       linksNavBar: [
         {
           nameLink: "Home",
@@ -106,4 +103,8 @@ export default {
 };
 </script>
 <style lang="scss">
+
+.bg-hero{
+    background-image: url("../assets/hero-header-bakery.jpg");
+}
 </style>
