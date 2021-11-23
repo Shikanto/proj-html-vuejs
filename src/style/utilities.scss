@@ -41,13 +41,29 @@
 /* CLASSI GENERICHE TESTO */
 
 .subtitle{
-    font-size: 10px;
+    font-size: 12px;
     color: $color-subtitle;
     letter-spacing: 2px;
 }
 
 .text-center{
     text-align: center;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.text-start{
+    text-align: start;
+}
+
+.align-start{
+    align-items: start;
+}
+
+.align-end{
+    align-items: end;
 }
 
 h3{
@@ -58,6 +74,14 @@ h3{
 }
 
 /* CLASSI GENERICHE SPAZIATURE */
+
+.w-30{
+    width: 30%;
+}
+
+.w-40{
+    width: 50%;
+}
 
 .container{
     margin: 0 auto;

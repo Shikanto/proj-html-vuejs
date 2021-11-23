@@ -11,6 +11,7 @@
       :productsShop="shop"
       class="spacing-section">
       </Section3>
+      <Section4 class="spacing-section"></Section4>
     </main>
   </div>
 </template>
@@ -20,6 +21,7 @@ import Header from "./components/Header.vue";
 import Section1 from "./components/Section1.vue";
 import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
+import Section4 from "./components/Section4.vue";
 
 export default {
   name: "App",
@@ -28,6 +30,7 @@ export default {
     Section1,
     Section2,
     Section3,
+    Section4,
   },
   data() {
     return {
