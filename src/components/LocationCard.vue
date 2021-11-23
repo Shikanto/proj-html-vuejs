@@ -1,7 +1,7 @@
 <template>
   <div class="card-location">
-    <div class="img-location">
-      <img
+    <div>
+      <img class="img-location"
         :src="require(`../assets/${infoLocation.imgUrl}`)"
         :alt="infoLocation.nameLocation"
       />
