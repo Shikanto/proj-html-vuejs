@@ -263,3 +263,33 @@ header{
     }
 }
 
+.top-section{
+    padding:15px 0;
+
+    .card-location{
+        width: 50%;
+
+        .img-location{
+            width: 100%;
+        } 
+    }
+}
+
+.info-location{
+    padding: $margin-title 0 ($margin-title / 2);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-info{
+    align-items: center;
+    margin-top: $margin-title / 2;
+
+    .margin-subtitle{
+        margin-top: 8px;
+    }
+    
+    .width-info{
+        width: calc(100% / 3);
+    }
+}

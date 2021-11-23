@@ -38,6 +38,14 @@
     background-color: rgba(0,0,0,0.5);
 }
 
+.bg-newyork{
+    background-color: $bg-newyork;
+}
+
+.bg-london{
+    background-color: $bg-london;
+}
+
 /* CLASSI GENERICHE TESTO */
 
 .subtitle{
@@ -108,7 +116,7 @@ h3{
     padding: 15px 40px;
     border: none;
     border-radius: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-size: 18px;
 }
 

@@ -12,6 +12,7 @@
       class="spacing-section">
       </Section3>
       <Section4 class="spacing-section"></Section4>
+      <Section5 class="spacing-section"></Section5>
     </main>
   </div>
 </template>
@@ -22,6 +23,7 @@ import Section1 from "./components/Section1.vue";
 import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
 import Section4 from "./components/Section4.vue";
+import Section5 from "./components/Section5.vue";
 
 export default {
   name: "App",
@@ -31,6 +33,7 @@ export default {
     Section2,
     Section3,
     Section4,
+    Section5,
   },
   data() {
     return {

@@ -6,8 +6,8 @@
         </div>
         <div class="container-special-moments d-flex">
            <SpecialMoments 
-           v-for="(moment, i) in SpecialMoment"
-             :key="i" :infoMoment="moment">
+            v-for="(moment, i) in SpecialMoment"
+            :key="i" :infoMoment="moment">
            ></SpecialMoments>
         </div>
     </div>
