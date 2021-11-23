@@ -118,6 +118,24 @@ header{
     .cardProducts{
         position: relative;
     }
+
+    .imgProduct{
+        width: 100%;
+    }
+
+    .nameProduct{
+        font-size: 35px;
+    }
+
+    .typeProduct{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .priceProduct{
+        font-size: 30px;
+    }
 }
 
 .container-special-moments{
