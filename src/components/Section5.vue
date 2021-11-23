@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        <div class="top-section-visit text-center">
+        <div class="text-center">
             <div class="subtitle">
                 LOCATIONS
             </div>
             <h3 class="spacing-title">Visit Our Bakeries</h3>
         </div>
-        <div class="container-locations d-flex">
+        <div class="d-flex">
             <LocationCard
             v-for="(location, i) in locationList"
             :key="i" :infoLocation="location"

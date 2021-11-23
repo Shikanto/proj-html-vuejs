@@ -263,17 +263,17 @@ header{
     }
 }
 
-.top-section{
-    padding:15px 0;
 
-    .card-location{
-        width: 50%;
-
-        .img-location{
-            width: 100%;
-        } 
-    }
+    
+.card-location{
+    width: 50%;
 }
+
+.img-location{
+    width: 100%;
+} 
+  
+
 
 .info-location{
     padding: $margin-title 0 ($margin-title / 2);
@@ -292,4 +292,16 @@ header{
     .width-info{
         width: calc(100% / 3);
     }
+}
+
+.square-img{
+    width: 25%;
+
+        img{
+            width: 100%;
+        }
+}
+
+.stay-in-touch{
+    width: 50%;
 }
