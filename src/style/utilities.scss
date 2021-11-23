@@ -2,13 +2,25 @@
     display: flex;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.indexPlus{
+    z-index: 4;
+}
+
 .container{
     margin: 0 auto;
     width: 1500px;
 }
 
 .subtitle{
-    font-size: 15px;
+    font-size: 10px;
     color: $color-subtitle;
     letter-spacing: 2px;
 }
@@ -103,10 +115,13 @@ h3{
 
 }
 
-.cardProducts:hover .overlay{
+.cardProducts:hover .overlay, .container-img-special-moments:hover .overlay{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.cardProducts:hover .overlay{
     background-color: rgba(0,0,0,0.5);
 }

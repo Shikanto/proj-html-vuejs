@@ -114,8 +114,26 @@ header{
     width: calc(100% - (100% / 3));
     justify-content: space-between;
     position: relative;
+
+    .cardProducts{
+        position: relative;
+    }
 }
 
-.cardProducts{
-    position: relative;
+.container-special-moments{
+    justify-content: space-between;
+    gap: $gap-imgs * 2;
+    
+    .container-img-special-moments{
+        width: 50%;
+        position: relative;
+
+        img{
+            width: 100%;
+        }
+        h2{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
 }
