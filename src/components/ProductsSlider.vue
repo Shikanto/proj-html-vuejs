@@ -6,7 +6,7 @@
         <div class="overlay">
             <div class="nameProduct"><strong>{{infoProduct.nameProduct}}</strong></div>
             <div class="typeProduct">{{infoProduct.type}}</div>
-            <div class="priceProduct">${{infoProduct.lowPrice}}  ${{infoProduct.topPrice}}</div>
+            <div class="priceProduct">${{infoProduct.lowPrice}} - ${{infoProduct.topPrice}}</div>
         </div>
     </div>
 </template>

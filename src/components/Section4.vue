@@ -50,8 +50,7 @@
       <div class="d-flex bg-bot-backery-process">
         <div class="top-text d-flex indexPlus">
           <h2>
-            Tell us what you have in <br />
-            mind
+            Delivered to your home
           </h2>
           <div class="number-process-bakery">03</div>
         </div>

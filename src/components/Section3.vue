@@ -3,7 +3,7 @@
         <div class="container-shop d-flex">
             <div class="container-shop-text text-center">
                 <h3>Find a freshly baked product perfect for you</h3>
-                <div class="spacing-title">
+                <div class="spacing-title text-gray ">
                     Integer a nibh vitae ex porttitor rutrum et ut
                     velit. Etiam ac felis at leo feugiat placerat. Sed
                     ac nulla id orci tempor convallis sed.

@@ -14,91 +14,96 @@ body{
 
 header{
     padding-bottom: $margin-title * 10;
-    .navBar{
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    
-        ul{
-            list-style-type: none;
-            
-            li{
-                
-                a{
-                    padding: 0 20px;
-                    text-decoration: none;
-                    color: $main-purple;
+}
+
+.navBar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-right: 80px;
+    margin-left: -20px;
+
+    .logo{
+        padding-left: 20px;
+    }
+
+    ul{
+        list-style-type: none;
+        gap:40px;
         
-                }
+        li{
+            
+            a{
+                text-decoration: none;
+                color: $main-purple;
+    
             }
         }
-        
-    }
+    }  
+}  
     
+.demosOnSale{
+    justify-content: end;
+    align-items: center;
     
-    .demosOnSale{
-        justify-content: end;
-        align-items: center;
-        
-        .container-demos, .container-icon-demos{
-            flex-direction: column;
-            justify-content: space-between;
-            margin-right: 20px;
-    
-            .container-icon-demos{
-                align-items: center;
-                padding:20px;
-                background-color: white;
-                margin-bottom: 15px;
-                padding: 15px;
-                border-radius: 10px;
-                box-shadow: 5px  5px 3px #dedede,
-                            -5px -5px 3px #dedede,
-                            5px -5px 3px #dedede,
-                            -5px  5px 3px #dedede;
-    
-                .demos-sale{
-                    
-                    font-weight: bolder;
-                    position: relative;
-                    text-align: center;
-                    font-size: 30px;
-    
-                    &.sale-price{
-                        color:$green-price;
-                    }
-    
-                    .dollar{
-                        position: olute;
-                        top:0;
-                        left: 0;
-                        font-size: 18px;
-                    }
-    
-                    .text-demos{
-                        font-size: 15px;
-                        
-                    }
+    .container-demos, .container-icon-demos{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 20px;
+
+        .container-icon-demos{
+            align-items: center;
+            padding:20px;
+            background-color: white;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 5px  5px 3px #dedede,
+                        -5px -5px 3px #dedede,
+                        5px -5px 3px #dedede,
+                        -5px  5px 3px #dedede;
+
+            .demos-sale{
+                
+                font-weight: bolder;
+                position: relative;
+                text-align: center;
+                font-size: 30px;
+
+                &.sale-price{
+                    color:$green-price;
                 }
-            }      
-        }
-    }
-    
-    .hero{
-        width: 40%;
-        h1{
-            font-size: 70px;
-            color: $main-purple;
-        }
-    
-        .text-hero{
-            color:$hero-text;
-            font-size: 25px;
-            line-height: 1.5;
-            margin-bottom: $margin-title;
-        }
+
+                .dollar{
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                    font-size: 18px;
+                }
+
+                .text-demos{
+                    font-size: 15px;
+                    
+                }
+            }
+        }      
     }
 }
+    
+.hero{
+    width: 40%;
+    h1{
+        font-size: 70px;
+        color: $main-purple;
+    }
+
+    .text-hero{
+        font-size: 25px;
+        line-height: 1.5;
+        margin-bottom: $margin-title;
+    }
+}
+
 
 
 .ourProducts{
@@ -135,7 +140,7 @@ header{
 
 .container-special-moments{
     justify-content: space-between;
-    gap: $gap-imgs * 2;
+    gap: $gap-imgs * 3;
     
     .container-img-special-moments{
         width: 50%;
@@ -156,6 +161,10 @@ header{
     .container-shop-text{
         width: 30%;
         padding: 40px;
+
+        .spacing-title.text-gray{
+            line-height: 1.5;
+        }
     }
     .slider-shop{
         width: 70%;
@@ -176,6 +185,8 @@ header{
                     font-size: 10px;
                     letter-spacing: 2px
                 }
+
+                
                 
             }
 
@@ -237,6 +248,7 @@ header{
 
 .description-text{
     color: white;
+    line-height: 1.5;
     
 }
 
@@ -315,4 +327,65 @@ header{
     align-items: center;
     background-color: $bg-light;
 
+}
+
+.bg-hero-footer{
+    background-image: url("./assets/call-to-action-bg.jpg");
+    background-size: cover;
+    height: 500px;
+    align-items: center;
+    padding-left: 400px;
+
+    h2{
+        color:white;
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+}
+
+footer{
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+    .top-footer{
+        justify-content: space-between;
+    }
+
+    .right-top-footer{
+        width: 40%;
+        
+    }
+
+    .input-email{
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid lightgray
+    }
+    
+    .bot-footer{
+        justify-content: space-between;
+        margin-top:150px;
+
+        .list-social{
+            
+            font-size: 20px;
+            gap: 50px;
+
+            a{
+                color:$main-purple;
+            }
+        }
+    }
+
+}
+
+.number-item{
+    margin-left: 10px;
+    background-color: $purple-light;
+    padding: 2px 7px;
+    border-radius: 50%;
+    
 }

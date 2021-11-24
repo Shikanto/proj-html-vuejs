@@ -1,6 +1,6 @@
 <template>
   <li>
-    <a :href="`${infoLink.href}`"> {{ infoLink.nameLink.toUpperCase() }}</a>
+    <a :href="`${infoLink.href}`">{{ infoLink.nameLink }}{{ infoLink.linkName }}</a>
   </li>
 </template>
 <script>

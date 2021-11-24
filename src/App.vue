@@ -14,7 +14,7 @@
       <Section4 class="spacing-section"></Section4>
       <Section5 class="spacing-section"></Section5>
       <Section6 class="spacing-section"></Section6>
-      <!-- <HeroBot></HeroBot> -->
+      <HeroFooter></HeroFooter>
       <Footer></Footer>
     </main>
   </div>
@@ -28,7 +28,7 @@ import Section3 from "./components/Section3.vue";
 import Section4 from "./components/Section4.vue";
 import Section5 from "./components/Section5.vue";
 import Section6 from "./components/Section6.vue";
-//import HeroBot from "./components/HeroBot.vue;";
+import HeroFooter from "./components/HeroFooter.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -41,7 +41,7 @@ export default {
     Section4,
     Section5,
     Section6,
-    //HeroBot,
+    HeroFooter,
     Footer,
   },
   data() {
