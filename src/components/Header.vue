@@ -5,7 +5,9 @@
         <img :src="require('../assets/avada-bakery-logo.png')" alt="" />
       </div>
       <ul class="d-flex">
-        <NavLinks v-for="(link, i) in linksNavBar" :key="i" :infoLink="link">
+        <NavLinks 
+        :class="i === currentIndex ? 'active-links' : ''"
+        v-for="(link, i) in linksNavBar" :key="i" :infoLink="link">
         </NavLinks>
         <li>
           <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
@@ -61,6 +63,7 @@ export default {
   },
   data() {
     return {
+      currentIndex: 0,
       linksNavBar: [
         {
           nameLink: "HOME",
