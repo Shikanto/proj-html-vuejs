@@ -39,6 +39,9 @@
                 <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
             </div>
         </div>
+        <div class="arrow-up">
+          <a href="#logo"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
     </div>
 </footer>
 </template>

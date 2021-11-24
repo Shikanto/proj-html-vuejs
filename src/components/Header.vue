@@ -1,7 +1,7 @@
 <template>
   <header class="bg-hero">
     <div class="navBar d-flex">
-      <div class="logo">
+      <div id="logo">
         <img :src="require('../assets/avada-bakery-logo.png')" alt="" />
       </div>
       <ul class="d-flex">
