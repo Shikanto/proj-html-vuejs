@@ -47,6 +47,9 @@ header{
 .demosOnSale{
     justify-content: end;
     align-items: center;
+    position: fixed;
+    right: 0;
+    top:100px;
     
     .container-demos, .container-icon-demos{
         flex-direction: column;
@@ -90,6 +93,7 @@ header{
     
 .hero{
     width: 40%;
+    margin-top: $margin-title * 5;
     h1{
         font-size: 70px;
         color: $main-purple;
