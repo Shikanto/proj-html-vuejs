@@ -14,15 +14,16 @@
 
             </div>
             <div class="slider-shop d-flex">
-                <SliderShop
+                <SliderShop class="hide"
+                :class="i >= minRange && i <= maxRange ? 'active' : 'back-img'"
                 v-for="(product, i) in getListProduct()"
                 :key="i" 
                 :infoProduct="product">
                 ></SliderShop>
-                <div class="arrow arrow-left">
+                <div @click="goLeft" class="arrow arrow-left">
                     <i class="fa fa-chevron-left" aria-hidden="true"></i>
                 </div>
-                <div class="arrow arrow-right">
+                <div @click="goRight" class="arrow arrow-right">
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             </div>
@@ -38,6 +39,11 @@ export default {
    data() {
        return {
            listProduct:[],
+           minRange: 0.,
+           maxRange:3,
+           currentIndex: 0,
+           classActive:"",
+           
        }
    },
    components: {
@@ -49,10 +55,38 @@ export default {
     methods: {
         getListProduct(){
             this.listProduct = this.productsShop
-            console.log(this.productsShop)
-            console.log(this.listProduct)
+            //console.log(this.productsShop)
+            //console.log(this.listProduct)
             return this.listProduct;
-        }
+        },
+        goRight(){
+            this.minRange ++;
+            this.maxRange ++;
+            if(this.maxRange > this.getListProduct().length -1) {
+                this.maxRange = 3;     
+                this.minRange = 0;           
+            } 
+        },
+        goLeft(){
+            this.minRange --;
+            this.maxRange --;
+            if (this.minRange < 0) {
+                this.minRange = this.productsShop.length -4;
+                this.maxRange = this.productsShop.length -1;
+            } 
+        },
+       /*  checkIndex(index){
+
+            if(index >= this.minRange && index <= this.maxRange) {
+                this.classActive = 'active'
+            }  else if (index <= this.minRange || index >= this.maxRange)
+                this.classActive = 'active' 
+            else {
+                this.classActive = 'back-img'
+            }
+
+            return this.classActive
+        } */
     },
 }
 </script>
