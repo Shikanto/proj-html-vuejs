@@ -38,8 +38,14 @@ header{
             a{
                 text-decoration: none;
                 color: $main-purple;
+                border-bottom: 0px solid $main-purple;
+                padding-bottom: 0px;
     
             }
+        }
+        li:hover a{
+            border-bottom: 3px solid $main-purple;
+            padding-bottom: 10px;
         }
     }  
 }  
@@ -179,7 +185,8 @@ header{
 
         .shop-card{
             width: calc(100% / 4);
-
+            //opacity: 0;
+        
             .imgShopCard{
                 position: relative;
 
@@ -416,3 +423,29 @@ footer{
         
     }
 }
+
+/* CLASSI SLIDER */
+
+.hide{
+    opacity: 0;
+}
+
+.active{
+    opacity: 1;
+}
+
+.back-img{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity ;
+}
+
+.active-links{
+    border-bottom: 3px solid $main-purple;
+    padding-bottom: 10px;
+}
+
