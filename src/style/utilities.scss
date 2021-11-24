@@ -26,7 +26,8 @@
 
 }
 
-.cardProducts:hover .overlay, .container-img-special-moments:hover .overlay, 
+.cardProducts:hover .overlay, 
+.container-img-special-moments:hover .overlay, 
 .shop-card:hover .overlay{
     display: flex;
     justify-content: center;
@@ -34,7 +35,8 @@
     flex-direction: column;
 }
 
-.cardProducts:hover .overlay, .shop-card:hover .overlay {
+.cardProducts:hover .overlay, 
+.shop-card:hover .overlay {
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -48,10 +50,17 @@
 
 /* CLASSI GENERICHE TESTO */
 
-.subtitle{
+.subtitle, .subtitle-hover{
     font-size: 12px;
-    color: $color-subtitle;
     letter-spacing: 2px;
+}
+
+.subtitle{
+    color: $color-subtitle;
+}
+
+.subtitle-hover{
+    color:$color-subtitle-hover
 }
 
 .text-center{
@@ -77,8 +86,7 @@
 h3{
     color: $main-purple;
     font-size: 28px;
-    font-weight: 900;
-    
+    font-weight: 900; 
 }
 
 h4{
@@ -145,7 +153,6 @@ h4{
 .btn-purple{
     color: white;
     background-color: $main-purple;
-
 }
 
 .btn-purple:hover{

@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+
+    <!-- ***IMMAGINE TOP 01*** -->
+
     <div class="top-container-bakery-process d-flex bg-top-backery-process">
       <div class="top-text d-flex indexPlus">
         <h2>
@@ -18,6 +21,8 @@
         </div>
       </div>
     </div>
+
+    <!-- ***IMMAGINE MID 02 + RIQUADRO TESTO A DX*** -->
 
     <div class="mid-container-bakery-process d-flex">
       <div class="container-start-baking d-flex bg-mid-backery-process">
@@ -45,6 +50,8 @@
         <div class="subtitle">RACHEL COOPER, FOUNDER</div>
       </div>
     </div>
+
+     <!-- ***IMMAGINE BOT 03*** -->
 
     <div class="bot-container-bakery-process">
       <div class="d-flex bg-bot-backery-process">

@@ -12,6 +12,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*****  HEADER *****/
+
 header{
     padding-bottom: $margin-title * 10;
 }
@@ -53,18 +55,13 @@ header{
 
         .container-icon-demos{
             align-items: center;
-            padding:20px;
+            padding: 15px;
             background-color: white;
             margin-bottom: 15px;
-            padding: 15px;
             border-radius: 10px;
-            box-shadow: 5px  5px 3px #dedede,
-                        -5px -5px 3px #dedede,
-                        5px -5px 3px #dedede,
-                        -5px  5px 3px #dedede;
+            box-shadow: 0 -5px 20px 5px rgb(0 0 0 / 15%);
 
             .demos-sale{
-                
                 font-weight: bolder;
                 position: relative;
                 text-align: center;
@@ -80,15 +77,16 @@ header{
                     left: 0;
                     font-size: 18px;
                 }
-
-                .text-demos{
-                    font-size: 15px;
-                    
-                }
+            }
+            .text-demos{
+                font-size: 15px;
+                margin-top: 8px;
             }
         }      
     }
 }
+
+
     
 .hero{
     width: 40%;
@@ -104,7 +102,7 @@ header{
     }
 }
 
-
+/*****  SECTION 1 *****/
 
 .ourProducts{
     width: calc(100% / 3);
@@ -138,6 +136,8 @@ header{
     }
 }
 
+/*****  SECTION 2 *****/
+
 .container-special-moments{
     justify-content: space-between;
     gap: $gap-imgs * 3;
@@ -155,6 +155,8 @@ header{
         }
     }
 }
+
+/*****  SECTION 3 *****/
 
 .container-shop{
 
@@ -203,6 +205,7 @@ header{
     }
 }
 
+/*****  SECTION 4 *****/
 
 .top-container-bakery-process{
     position: relative;
@@ -275,7 +278,7 @@ header{
     }
 }
 
-
+/*****  SECTION 5 *****/
     
 .card-location{
     width: 50%;
@@ -306,6 +309,8 @@ header{
     }
 }
 
+/*****  SECTION 6 *****/
+
 .container-stay-in-touch{
     flex-direction: column;
     justify-content: space-evenly;
@@ -329,6 +334,8 @@ header{
 
 }
 
+/*****  HERO FOOTER *****/
+
 .bg-hero-footer{
     background-image: url("./assets/call-to-action-bg.jpg");
     background-size: cover;
@@ -344,6 +351,8 @@ header{
         margin-bottom: 80px;
     }
 }
+
+/*****  FOOTER *****/
 
 footer{
     margin-top: 100px;
@@ -382,7 +391,7 @@ footer{
 
 }
 
-.number-item{
+.cart-item{
     margin-left: 10px;
     background-color: $purple-light;
     padding: 2px 7px;

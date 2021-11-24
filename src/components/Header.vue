@@ -12,6 +12,9 @@
         </li>
       </ul>
     </div>
+
+    <!-- ICONS RIGHT -->
+
     <div class="demosOnSale d-flex">
       <div class="container-demos d-flex">
         <div class="container-icon-demos d-flex">
@@ -29,6 +32,9 @@
         </div>
       </div>
     </div>
+
+    <!-- HERO -->
+
     <div class="container">
       <div class="hero">
         <div class="subtitle">FRESH & TASTY BAKERY EVERY DAY</div>

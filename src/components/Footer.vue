@@ -2,7 +2,7 @@
 <footer>
     <div class="container">
         <div class="top-footer d-flex">
-            <div class="left-top-footer">
+            <div>
                 <div class="spacing-title">
                     <img :src="require('../assets/avada-bakery-logo.png')" alt="" />
                 </div>
@@ -14,7 +14,7 @@
                         <li>
                             <a href="#">
                                 <i class="fa fa-shopping-cart" aria-hidden="true">
-                                <span class="number-item">0</span></i>
+                                <span class="cart-item">0</span></i>
                             </a>
                         </li>
                     </ul>

@@ -4,7 +4,7 @@
     <div class="overlay">
         <img class="absolute" :src="require(`../assets/${infoMoment.imgHover}`)" alt="">
         <div class="text-center absolute indexPlus">
-            <div class="subtitle">{{infoMoment.nameEvent}}</div>
+            <div class="subtitle-hover">{{infoMoment.nameEvent.toUpperCase()}}</div>
             <h2>{{infoMoment.typeEvent}}</h2>
             <div>
                 <button class="btn btn-purple">Explore more</button>

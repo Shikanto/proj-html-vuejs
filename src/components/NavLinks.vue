@@ -1,6 +1,9 @@
 <template>
   <li>
-    <a :href="`${infoLink.href}`">{{ infoLink.nameLink }}{{ infoLink.linkName }}</a>
+    <a :href="`${infoLink.href}`">
+      {{ infoLink.nameLink }}
+      {{ infoLink.linkName }}
+    </a>
   </li>
 </template>
 <script>
